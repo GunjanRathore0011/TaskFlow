@@ -27,9 +27,9 @@ export class CreateTaskDto {
 
   @IsOptional()
   @IsUUID()
-  assigneeId?: string;
+  assignee?: string;
 
   @IsOptional()
   @IsUUID()
-  reporterId?: string;
+  reporter?: string;
 }

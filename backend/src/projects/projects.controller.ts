@@ -4,7 +4,7 @@ import { CreateProjectDto } from './dto/create-project.dto';
 
 @Controller('projects')
 export class ProjectsController {
-    constructor(private readonly projectsService: ProjectsService) {
+    constructor(private readonly projectsService: ProjectsService) {7
     }
 
     @Post()
